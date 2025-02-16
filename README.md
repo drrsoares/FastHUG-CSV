@@ -200,21 +200,24 @@
                 </select>
             </div>
 
-            <div class="form-group">
-                <label>T - Tromboprofilaxia:</label>
-                <div class="checkbox-group">
-                    <input type="checkbox" id="heparina" name="tromboprofilaxia" value="heparina">
-                    <label for="heparina">Heparina</label>
-                </div>
-                <div class="checkbox-group">
-                    <input type="checkbox" id="meias" name="tromboprofilaxia" value="meias">
-                    <label for="meias">Meias Compressivas</label>
-                </div>
-                <div class="checkbox-group">
-                    <input type="checkbox" id="compressao" name="tromboprofilaxia" value="compressao">
-                    <label for="compressao">Compressão Pneumática</label>
-                </div>
-            </div>
+         <div class="form-group">
+    <label>T - Tromboprofilaxia:</label>
+    <div class="checkbox-group">
+        <input type="checkbox" id="heparina" name="tromboprofilaxia" value="heparina">
+        <label for="heparina">Heparina Não Fracionada</label>
+    </div>
+    <div class="checkbox-group">
+        <input type="checkbox" id="hbpm" name="tromboprofilaxia" value="hbpm">
+        <label for="hbpm">HBPM (Heparina Baixo Peso Molecular)</label>
+    </div>
+    <div class="checkbox-group">
+        <input type="checkbox" id="meias" name="tromboprofilaxia" value="meias">
+        <label for="meias">Meias Compressivas</label>
+    </div>
+    <div class="checkbox-group">
+        <input type="checkbox" id="compressao" name="tromboprofilaxia" value="compressao">
+        <label for="compressao">Compressão Pneumática</label>
+    </div>
 
             <div class="form-group">
                 <label for="cabeceira">H - Cabeceira (graus):</label>
